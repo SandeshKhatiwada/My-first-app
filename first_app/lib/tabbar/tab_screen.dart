@@ -205,9 +205,9 @@ class _TabScreenState extends State<TabScreen> {
                     child: Expanded(
                       child: TabBarView(children: [
                         MyPosts(),
-                        Center(child: Text("Location")),
-                        Center(child: Text("My Games")),
-                        Center(child: Text("My City"))
+                        Center(child: Text("My City")),
+                        Center(child: Text("My Location")),
+                        Center(child: Text("My Games"))
                       ]),
                     ),
                   )

@@ -1,5 +1,6 @@
 import 'package:first_app/page_view_screen.dart';
 import 'package:first_app/row_columns.dart';
+import 'package:first_app/stack_screen.dart';
 import 'package:first_app/tabbar/tab_screen.dart';
 import 'package:flutter/material.dart';
 import 'home.dart';
@@ -24,7 +25,7 @@ class OurApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Our app",
-      home: TabScreen(),
+      home: StackScreen(),
       //  RowAndColumns(),
     );
   }
