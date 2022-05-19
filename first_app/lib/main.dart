@@ -1,4 +1,6 @@
+import 'package:first_app/page_view_screen.dart';
 import 'package:first_app/row_columns.dart';
+import 'package:first_app/tabbar/tab_screen.dart';
 import 'package:flutter/material.dart';
 import 'home.dart';
 import 'package:first_app/image_screen.dart';
@@ -19,9 +21,12 @@ class OurApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // final whiteRgb = Color.fromRGBO(r, g, b, opacity);
 
-    return MaterialApp(title: "Our app", home: ImageScreen()
-        //  RowAndColumns(),
-        );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Our app",
+      home: TabScreen(),
+      //  RowAndColumns(),
+    );
   }
 }
 
